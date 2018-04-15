@@ -1,6 +1,6 @@
 Encontrei alguns pontos que acredito estarem errados na especificação e nos testes:
 
-NA parte do "Find distance between two towns" o correto seria :
+Na parte do "Find distance between two towns" o correto seria :
 {
   "distance" : 8,
   "path" : [ "A", "B", "C" ]
@@ -13,10 +13,6 @@ e não
 
 Já que A->B = 6
 B->C = 2.
-
-
-//	
-Find distance for path
 
 No quarto caso de teste (Distance of route AEBCD: 22) o correto seria retornar -1 pois
 na especificação está escrito "This endpoint should receive a directed graph and a ORDERED list", 
