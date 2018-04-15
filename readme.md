@@ -16,15 +16,15 @@ B->C = 2.
 
 No quarto caso de teste (Distance of route AEBCD: 22) o correto seria retornar -1 pois
 na especificação está escrito "This endpoint should receive a directed graph and a ORDERED list", 
-se a lista não está ordenada como neste caso não há caminho válido. 
+se a lista não está ordenada, como neste caso, não há caminho válido. 
 
 No teste 6, "Routes starting at C and ending at C with a maximum of 3 stops": 
-O 0 como distancia também é valido já que permanecer no nó original é um caminho valido jé que:
+O 0 como distancia também é valido já que permanecer no nó original é um caminho válido já que:
 
-"This endpoint should compute ALL available routes from ANY given pair of towns"
+"This endpoint should compute ALL available routes from ANY given pair of towns".
 
-Por último para o teste 7, mesmo o gráfo sendo direto outros caminhos são possíveis, veja que por exemplo
-ABCDC, CDC é um caminho válido.
+Por último, para o teste 7, mesmo o gráfo sendo direto, outros caminhos são possíveis, veja que por exemplo:
+No caso do ABCDC, CDC é um caminho válido.
 
 Segue o resultado:
 {
