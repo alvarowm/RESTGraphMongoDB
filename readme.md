@@ -46,20 +46,6 @@ Exibe as rotas entre dois pontos, possíveis conjuntos de arestas entre dois vé
 Exibe as rotas entre dois pontos levando em consideração um número máximo de paradas.
 ```
 
-Exemplo de payload:
-
-```javascript
-{
-  "routes": [
-    {
-      "route": "XY",
-      "stops": 1
-    },
-    ...
-  ]
-}
-```
-
 ```
 /distance
 Exibe a distância de um caminho.
@@ -69,6 +55,7 @@ Exibe a distância de um caminho.
 /distance/{id}
 Retorna a distância de listas de pontos ou vértices.
 ```
+
 Exemplo de payload:
 ```javascript
 {
