@@ -4,7 +4,7 @@ Utilizando Spring Boot como base, esse teste disponibiliza endpoints REST para s
 
 https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante
 
-O grafo além de vértices e arestas possue pesos nas arestas, ligações entre os vértices ou nós.
+O grafo além de vértices e arestas possui pesos nas arestas, ligações entre os vértices ou nós.
 
 Endpoints disponibilizados:
 
